@@ -1,0 +1,391 @@
+\hypertarget{classGuia__Tlf}{}\doxysection{Guia\+\_\+\+Tlf Class Reference}
+\label{classGuia__Tlf}\index{Guia\_Tlf@{Guia\_Tlf}}
+
+
+T.\+D.\+A. \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}}.  
+
+
+
+
+{\ttfamily \#include $<$guiatlf.\+h$>$}
+
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classGuia__Tlf_1_1const__iterator}{const\+\_\+iterator}}
+\item 
+class \mbox{\hyperlink{classGuia__Tlf_1_1iterator}{iterator}}
+\begin{DoxyCompactList}\small\item\em clase para iterar sobre la guia \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+string \& \mbox{\hyperlink{classGuia__Tlf_a6eed62abe5d13de96934e6897aaf9184}{operator\mbox{[}$\,$\mbox{]}}} (const string \&nombre)
+\begin{DoxyCompactList}\small\item\em Acceso a un elemento. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classGuia__Tlf_a18593e3cf273db1a540cba69f87fd637}\label{classGuia__Tlf_a18593e3cf273db1a540cba69f87fd637}} 
+string {\bfseries gettelefono} (const string \&nombre)
+\item 
+pair$<$ map$<$ string, string $>$\+::\mbox{\hyperlink{classGuia__Tlf_1_1iterator}{iterator}}, bool $>$ \mbox{\hyperlink{classGuia__Tlf_a47f2b04dd9d4a828fdbfee0ac383af55}{insert}} (string nombre, string tlf)
+\begin{DoxyCompactList}\small\item\em Insert un nuevo telefono. \end{DoxyCompactList}\item 
+pair$<$ map$<$ string, string $>$\+::\mbox{\hyperlink{classGuia__Tlf_1_1iterator}{iterator}}, bool $>$ \mbox{\hyperlink{classGuia__Tlf_a3d8dc24c73e498c957db292ec29fe7ca}{insert}} (pair$<$ string, string $>$ p)
+\begin{DoxyCompactList}\small\item\em Insert un nuevo telefono. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGuia__Tlf_a57e32bbc9e76567d22e5275d4d2a6515}{borrar}} (const string \&nombre)
+\begin{DoxyCompactList}\small\item\em Borrar un telefono. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGuia__Tlf_af8adac24fd35985b9016a4a38cca60f4}{borrar}} (const string \&nombre, const string \&tlf)
+\begin{DoxyCompactList}\small\item\em Borrar un telefono. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classGuia__Tlf_a727ab46d490b4196a71f623644906a81}{size}} () const
+\begin{DoxyCompactList}\small\item\em Numero de telefonos. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classGuia__Tlf_aa63213524c6339ea89baae2b5d2ebb69}{contabiliza}} (const string \&nombre)
+\begin{DoxyCompactList}\small\item\em Contabiliza cuantos telefonos tenemos asociados a un nombre. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classGuia__Tlf_a36ac970ece51a62763bb3898159d0047}\label{classGuia__Tlf_a36ac970ece51a62763bb3898159d0047}} 
+void \mbox{\hyperlink{classGuia__Tlf_a36ac970ece51a62763bb3898159d0047}{clear}} ()
+\begin{DoxyCompactList}\small\item\em Limpia la guia. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \mbox{\hyperlink{classGuia__Tlf_a3e0b08a1985d3c72853690730319172f}{operator+}} (const \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \&g)
+\begin{DoxyCompactList}\small\item\em Union de guias de telefonos. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \mbox{\hyperlink{classGuia__Tlf_ac381d53f275ce769830e07fbc56902b0}{operator-\/}} (const \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \&g)
+\begin{DoxyCompactList}\small\item\em Diferencia de guias de telefonos. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \mbox{\hyperlink{classGuia__Tlf_a1084c7a4c8646e901fb3b1da22439250}{operator$\ast$}} (const \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \&g)
+\begin{DoxyCompactList}\small\item\em Interseccion de guias de telefonos. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \mbox{\hyperlink{classGuia__Tlf_af3ded24526cdd6facd40c9ecc894a637}{operator=}} (const \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \&g)
+\begin{DoxyCompactList}\small\item\em Operador de asignación. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \mbox{\hyperlink{classGuia__Tlf_a1f796af6b3b8021a8ee26e19ea68f708}{operator/}} (const \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \&g)
+\begin{DoxyCompactList}\small\item\em Operador de diferencia simétrica. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classGuia__Tlf_aa5370d6206043ae4b225d22ad91e5c5d}{operator==}} (const \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \&g)
+\begin{DoxyCompactList}\small\item\em Operador de comparación. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \mbox{\hyperlink{classGuia__Tlf_a0a8ed6b386e90a6799a8693653b3e187}{previos}} (const string \&nombre, const string \&tlf)
+\begin{DoxyCompactList}\small\item\em Obtiene una guia con los nombre previos a uno dado. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classGuia__Tlf_a0a0f50f45b96349e005d7457a0c05574}\label{classGuia__Tlf_a0a0f50f45b96349e005d7457a0c05574}} 
+\mbox{\hyperlink{classGuia__Tlf_1_1iterator}{iterator}} \mbox{\hyperlink{classGuia__Tlf_a0a0f50f45b96349e005d7457a0c05574}{begin}} ()
+\begin{DoxyCompactList}\small\item\em Inicializa un iterator al comienzo de la guia. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classGuia__Tlf_a91777ba1c5e206259943af1eae5aa305}\label{classGuia__Tlf_a91777ba1c5e206259943af1eae5aa305}} 
+\mbox{\hyperlink{classGuia__Tlf_1_1iterator}{iterator}} \mbox{\hyperlink{classGuia__Tlf_a91777ba1c5e206259943af1eae5aa305}{end}} ()
+\begin{DoxyCompactList}\small\item\em Inicializa un iterator al final de la guia. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classGuia__Tlf_a2e43b419bfe8a3203d2942068203c661}\label{classGuia__Tlf_a2e43b419bfe8a3203d2942068203c661}} 
+\mbox{\hyperlink{classGuia__Tlf_1_1const__iterator}{const\+\_\+iterator}} \mbox{\hyperlink{classGuia__Tlf_a2e43b419bfe8a3203d2942068203c661}{begin}} () const
+\begin{DoxyCompactList}\small\item\em Inicializa un iterator al comienzo de la guia. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classGuia__Tlf_a74244ec651f6f8793101f55529fb8658}\label{classGuia__Tlf_a74244ec651f6f8793101f55529fb8658}} 
+\mbox{\hyperlink{classGuia__Tlf_1_1const__iterator}{const\+\_\+iterator}} \mbox{\hyperlink{classGuia__Tlf_a74244ec651f6f8793101f55529fb8658}{end}} () const
+\begin{DoxyCompactList}\small\item\em Inicializa un iterator al final de la guia. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \mbox{\hyperlink{classGuia__Tlf_a73eb02557f3118999710c66aa9ecf309}{operator$<$$<$}} (ostream \&os, \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \&g)
+\begin{DoxyCompactList}\small\item\em Escritura de la guia de telefonos. \end{DoxyCompactList}\item 
+istream \& \mbox{\hyperlink{classGuia__Tlf_ac15a5b0c2eb7d5b1843f11beb492495e}{operator$>$$>$}} (istream \&is, \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \&g)
+\begin{DoxyCompactList}\small\item\em Lectura de la guia de telefonos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+T.\+D.\+A. \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}}. 
+
+Una instancia {\itshape c} del tipo de datos abstracto {\ttfamily \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}}} es un objeto formado por una colección de pares \{(e11,e21),(e12,e22),(e13,e23),...,(e1n-\/1,e2n-\/1)\} ordenados por la el primer elemento del par denominado clave o key. No existen elementos repetidos.
+
+Un ejemplo de su uso\+:
+
+\begin{DoxyAuthor}{Author}
+Rosa Rodríguez 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Marzo 2012 
+\end{DoxyDate}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classGuia__Tlf_a57e32bbc9e76567d22e5275d4d2a6515}\label{classGuia__Tlf_a57e32bbc9e76567d22e5275d4d2a6515}} 
+\index{Guia\_Tlf@{Guia\_Tlf}!borrar@{borrar}}
+\index{borrar@{borrar}!Guia\_Tlf@{Guia\_Tlf}}
+\doxysubsubsection{\texorpdfstring{borrar()}{borrar()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Guia\+\_\+\+Tlf\+::borrar (\begin{DoxyParamCaption}\item[{const string \&}]{nombre }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Borrar un telefono. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombre} & nombre que se quiere borrar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+\+: en caso de que fuese un multimap borraria todos con ese nombre 
+\end{DoxyNote}
+\mbox{\Hypertarget{classGuia__Tlf_af8adac24fd35985b9016a4a38cca60f4}\label{classGuia__Tlf_af8adac24fd35985b9016a4a38cca60f4}} 
+\index{Guia\_Tlf@{Guia\_Tlf}!borrar@{borrar}}
+\index{borrar@{borrar}!Guia\_Tlf@{Guia\_Tlf}}
+\doxysubsubsection{\texorpdfstring{borrar()}{borrar()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Guia\+\_\+\+Tlf\+::borrar (\begin{DoxyParamCaption}\item[{const string \&}]{nombre,  }\item[{const string \&}]{tlf }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Borrar un telefono. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombre} & nombre que se quiere borrar y telefono asociado \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+\+: esta funcion nos permite borrar solamente aquel que coincida en nombre y tlf 
+\end{DoxyNote}
+\mbox{\Hypertarget{classGuia__Tlf_aa63213524c6339ea89baae2b5d2ebb69}\label{classGuia__Tlf_aa63213524c6339ea89baae2b5d2ebb69}} 
+\index{Guia\_Tlf@{Guia\_Tlf}!contabiliza@{contabiliza}}
+\index{contabiliza@{contabiliza}!Guia\_Tlf@{Guia\_Tlf}}
+\doxysubsubsection{\texorpdfstring{contabiliza()}{contabiliza()}}
+{\footnotesize\ttfamily unsigned int Guia\+\_\+\+Tlf\+::contabiliza (\begin{DoxyParamCaption}\item[{const string \&}]{nombre }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Contabiliza cuantos telefonos tenemos asociados a un nombre. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombre} & nombre sobre el que queremos consultar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+numero de telefonos asociados a un nombre 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGuia__Tlf_a3d8dc24c73e498c957db292ec29fe7ca}\label{classGuia__Tlf_a3d8dc24c73e498c957db292ec29fe7ca}} 
+\index{Guia\_Tlf@{Guia\_Tlf}!insert@{insert}}
+\index{insert@{insert}!Guia\_Tlf@{Guia\_Tlf}}
+\doxysubsubsection{\texorpdfstring{insert()}{insert()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily pair$<$map$<$string,string$>$\+::\mbox{\hyperlink{classGuia__Tlf_1_1iterator}{iterator}},bool$>$ Guia\+\_\+\+Tlf\+::insert (\begin{DoxyParamCaption}\item[{pair$<$ string, string $>$}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Insert un nuevo telefono. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & pair con el nombre y el telefono asociado\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\+: un pair donde first apunta al nuevo elemento insertado y bool es true si se ha insertado el nuevo tlf o o false en caso contrario 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGuia__Tlf_a47f2b04dd9d4a828fdbfee0ac383af55}\label{classGuia__Tlf_a47f2b04dd9d4a828fdbfee0ac383af55}} 
+\index{Guia\_Tlf@{Guia\_Tlf}!insert@{insert}}
+\index{insert@{insert}!Guia\_Tlf@{Guia\_Tlf}}
+\doxysubsubsection{\texorpdfstring{insert()}{insert()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily pair$<$map$<$string,string$>$\+::\mbox{\hyperlink{classGuia__Tlf_1_1iterator}{iterator}},bool$>$ Guia\+\_\+\+Tlf\+::insert (\begin{DoxyParamCaption}\item[{string}]{nombre,  }\item[{string}]{tlf }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Insert un nuevo telefono. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombre} & nombre clave del nuevo telefono \\
+\hline
+{\em tlf} & numero de telefono \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\+: un pair donde first apunta al nuevo elemento insertado y bool es true si se ha insertado el nuevo tlf o o false en caso contrario 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGuia__Tlf_a1084c7a4c8646e901fb3b1da22439250}\label{classGuia__Tlf_a1084c7a4c8646e901fb3b1da22439250}} 
+\index{Guia\_Tlf@{Guia\_Tlf}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Guia\_Tlf@{Guia\_Tlf}}
+\doxysubsubsection{\texorpdfstring{operator$\ast$()}{operator*()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} Guia\+\_\+\+Tlf\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \&}]{g }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Interseccion de guias de telefonos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & guia a intersecar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\+: una nueva guia resultado con la interseccion del objeto al que apunta this y g 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGuia__Tlf_a3e0b08a1985d3c72853690730319172f}\label{classGuia__Tlf_a3e0b08a1985d3c72853690730319172f}} 
+\index{Guia\_Tlf@{Guia\_Tlf}!operator+@{operator+}}
+\index{operator+@{operator+}!Guia\_Tlf@{Guia\_Tlf}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} Guia\+\_\+\+Tlf\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \&}]{g }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Union de guias de telefonos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & guia que se une \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\+: una nueva guia resultado de unir el objeto al que apunta this y g 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGuia__Tlf_ac381d53f275ce769830e07fbc56902b0}\label{classGuia__Tlf_ac381d53f275ce769830e07fbc56902b0}} 
+\index{Guia\_Tlf@{Guia\_Tlf}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Guia\_Tlf@{Guia\_Tlf}}
+\doxysubsubsection{\texorpdfstring{operator-\/()}{operator-()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} Guia\+\_\+\+Tlf\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \&}]{g }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Diferencia de guias de telefonos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & guia a restar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\+: una nueva guia resultado de la diferencia del objeto al que apunta this y g 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGuia__Tlf_a1f796af6b3b8021a8ee26e19ea68f708}\label{classGuia__Tlf_a1f796af6b3b8021a8ee26e19ea68f708}} 
+\index{Guia\_Tlf@{Guia\_Tlf}!operator/@{operator/}}
+\index{operator/@{operator/}!Guia\_Tlf@{Guia\_Tlf}}
+\doxysubsubsection{\texorpdfstring{operator/()}{operator/()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} Guia\+\_\+\+Tlf\+::operator/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \&}]{g }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Operador de diferencia simétrica. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & guia a realizar la operacion \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+una nueva guia que es el resultado de la diferencia entre la union y la interseccion de this y g 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGuia__Tlf_af3ded24526cdd6facd40c9ecc894a637}\label{classGuia__Tlf_af3ded24526cdd6facd40c9ecc894a637}} 
+\index{Guia\_Tlf@{Guia\_Tlf}!operator=@{operator=}}
+\index{operator=@{operator=}!Guia\_Tlf@{Guia\_Tlf}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} Guia\+\_\+\+Tlf\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \&}]{g }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Operador de asignación. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & guia a copiar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+una nueva guia resultado que es una copia de g 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGuia__Tlf_aa5370d6206043ae4b225d22ad91e5c5d}\label{classGuia__Tlf_aa5370d6206043ae4b225d22ad91e5c5d}} 
+\index{Guia\_Tlf@{Guia\_Tlf}!operator==@{operator==}}
+\index{operator==@{operator==}!Guia\_Tlf@{Guia\_Tlf}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Guia\+\_\+\+Tlf\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \&}]{g }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Operador de comparación. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & guia con la que comparar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+booleano que devuelve true si son iguales y false si no lo son 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGuia__Tlf_a6eed62abe5d13de96934e6897aaf9184}\label{classGuia__Tlf_a6eed62abe5d13de96934e6897aaf9184}} 
+\index{Guia\_Tlf@{Guia\_Tlf}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!Guia\_Tlf@{Guia\_Tlf}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}}
+{\footnotesize\ttfamily string\& Guia\+\_\+\+Tlf\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{const string \&}]{nombre }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Acceso a un elemento. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombre} & nombre del elemento elemento acceder \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+devuelve el valor asociado a un nombre, es decir el teléfono 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGuia__Tlf_a0a8ed6b386e90a6799a8693653b3e187}\label{classGuia__Tlf_a0a8ed6b386e90a6799a8693653b3e187}} 
+\index{Guia\_Tlf@{Guia\_Tlf}!previos@{previos}}
+\index{previos@{previos}!Guia\_Tlf@{Guia\_Tlf}}
+\doxysubsubsection{\texorpdfstring{previos()}{previos()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} Guia\+\_\+\+Tlf\+::previos (\begin{DoxyParamCaption}\item[{const string \&}]{nombre,  }\item[{const string \&}]{tlf }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtiene una guia con los nombre previos a uno dado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombre} & nombre delimitador \\
+\hline
+{\em tlf} & telefono asociado a nombre \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nueva guia sin nombres mayores que {\itshape nombre} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGuia__Tlf_a727ab46d490b4196a71f623644906a81}\label{classGuia__Tlf_a727ab46d490b4196a71f623644906a81}} 
+\index{Guia\_Tlf@{Guia\_Tlf}!size@{size}}
+\index{size@{size}!Guia\_Tlf@{Guia\_Tlf}}
+\doxysubsubsection{\texorpdfstring{size()}{size()}}
+{\footnotesize\ttfamily int Guia\+\_\+\+Tlf\+::size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Numero de telefonos. 
+
+\begin{DoxyReturn}{Returns}
+el numero de telefonos asociados 
+\end{DoxyReturn}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classGuia__Tlf_a73eb02557f3118999710c66aa9ecf309}\label{classGuia__Tlf_a73eb02557f3118999710c66aa9ecf309}} 
+\index{Guia\_Tlf@{Guia\_Tlf}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Guia\_Tlf@{Guia\_Tlf}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{\mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \&}]{g }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Escritura de la guia de telefonos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & flujo de salida. Es M\+O\+D\+I\+F\+I\+C\+A\+DO \\
+\hline
+{\em g} & guia de telefonos que se escribe \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+el flujo de salida 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGuia__Tlf_ac15a5b0c2eb7d5b1843f11beb492495e}\label{classGuia__Tlf_ac15a5b0c2eb7d5b1843f11beb492495e}} 
+\index{Guia\_Tlf@{Guia\_Tlf}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Guia\_Tlf@{Guia\_Tlf}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{istream \&}]{is,  }\item[{\mbox{\hyperlink{classGuia__Tlf}{Guia\+\_\+\+Tlf}} \&}]{g }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Lectura de la guia de telefonos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is} & flujo de entrada. ES M\+O\+D\+I\+F\+I\+C\+A\+DO \\
+\hline
+{\em g} & guia de telefonos. ES M\+O\+D\+I\+F\+I\+C\+A\+DO \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+el flujo de entrada 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/guiatlf.\+h\end{DoxyCompactItemize}

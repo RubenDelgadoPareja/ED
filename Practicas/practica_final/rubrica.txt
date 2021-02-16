@@ -1,0 +1,21 @@
+
+Rúbrica de la práctica final de ED: 
+
+He de aclarar principalmente de que ambos compañeros somos del mismo pueblo, por lo tanto realizamos 
+la práctica en persona y estuvimos aportando ambos constatemente al trabajo del otro, además de turnarnos
+
+Alberto Lopez Jimenez: 
+Implementó completamente los ficheros Punto.h y Ruta.h realizando tanto la cabecera como el cuerpo 
+de las funciones de dichos ficheros 
+También hizo un par de funciones del fichero Almacen_Rutas.h
+Documentó el doxygen de Almacen_Rutas.h
+
+Rubén Delgado Pareja:
+Previamente investigó que clases de TDAs utilizar en cada clase, para Ruta una lista y para el 
+Almacén un map
+Implemento lo restante del fichero Almacen_Rutas.h 
+Documentó las clases Punto.h y Ruta.h
+También creo el Makefile para que compilara y ejecutara el código correctamente
+y se encargó de que todo funcionase y crease las imagenes ppm
+
+
